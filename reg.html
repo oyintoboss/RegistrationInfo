@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Register</title>
+<script>
+function reg(){
+
+alert("Mr Sukanmi came very late Today!");
+return true;
+}
+</script>
+<style>
+body {
+background-image: url("wed.jpg");
+background-repeat: repeat-x;
+background-position: right top;
+}
+input[type="text"], input[type="password"],input[type="radio"],input[type="date"],select{
+padding: 10px 10px;
+border-radius: 14px;
+border:none;
+border-bottom: 2px solid red;
+
+}
+h2 {
+text-align:center;
+color: rgb(170,189,209);
+background-color:rgb(085,094,105);
+}
+ul li{
+display:inline;
+padding-left:200px;
+}
+
+a:link{
+    color: green;
+    padding: 12px 20px;
+    text-decoration: none;
+    background-color: #f44560;
+    border-radius: 30px;
+}
+input[type="button"]{
+	background-color: pink;
+	color: green;
+        border-bottom: 2px solid green;
+	opacity: 0.8;
+	width: 9%;
+	height: 35px;
+	border-radius:20px;
+	border: none;
+	text-decoration: none;
+}
+a:hover, a:active{
+    
+    
+    
+    background-color: yellow;
+}
+a:visited {
+    color: blue;
+    padding: 12px 20px;
+    background-color: #f44560;
+    text-decoration: none;
+}
+
+#move{
+text-align:center;
+padding-top:30px;
+border: 2px dotted powderblue;
+background-color:yellow;
+}
+</style>
+</head>
+<body>
+<ul>
+<li><a href="indes.html">Home</a></li>
+<li><a href="#about.html">About Us</a></li>
+<li><a href="reg.html">Register</a></li>
+<li><a href="#login.html">Login</a></li>
+</ul>
+<h2>Kindly Fill the Form below!</h2>
+<div id="move">
+<div style="float:right;">
+<video width="200" height="200" controls autoplay>
+<source src="a.mp4" type="video/mp4">
+</source>
+</video>
+<audio controls>
+<source src="b.mp3" type="audio/mp3">
+</audio>
+</div>
+<form>
+<p><b><label>Firstname</label><b>
+<input type="text" placeholder="Enter Firstname"></p>
+<p><b><label>Lastname</label><b>
+<input type="text" placeholder="Enter Lastname"></p>
+<p><b><label>Middlename</label><b>
+<input type="text" placeholder="Enter Middlename"></p>
+<p><b><label>Gender</label></b>
+<input type="radio" name="male">Male
+<input type="radio" name="male">Female
+</p>
+<p><label>Select Role</label>
+<select>
+<option value="0">--Kindly Select--</option>
+<option value="1">Principal</option>
+<option value="2">Teacher</option>
+<option value="3">Admin</option>
+<option value="4">Non-Teaching Staff</option>
+<option value="5">Student</option>
+<option value="6">Propeitress</option>
+</select>
+</p>
+<p><b><label>EmailAddress</label><b>
+<input type="text" placeholder="Enter Email" size="40"></p>
+<p><b><label>Date</label><b>
+<input type="date" placeholder="Enter Date" size="40"></p>
+<p><b><label>Password</label><b>
+<input type="password" placeholder="Enter Password" size="40"></p> 
+<p><b><label>Phone Number</label><b>
+<input type="text" placeholder="Enter PhoneNumber" size="40"></p>
+<p><input type="button" id="btnreg" value="Register" onclick="reg();"></p>
+</form>
+</div>
+<footer>
+<p>Top Floor, Jubilee Bank, Around access bank, Holiness Road,RCCG, Camp.</p>
+</footer>
+</body>
+</html>
